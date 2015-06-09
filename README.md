@@ -11,4 +11,4 @@ _font_down()
 
 The _font_size variable value will be changed whenever user clicks on the appropriate  button, the change falls upon div _main, who's  font size is changing by changing the fontSize attribute. ( _main.style.fontSize)
 
-<div id='demo_button'><a href='http://w3draw.co.uk/blog/DEMO/font_zoom/'>Demo</a></div>
+
