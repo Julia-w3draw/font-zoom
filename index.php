@@ -9,26 +9,21 @@
 		<div id='font_up' onclick='_font_up()' style='width: 50px; height: 30px; background: rgba(0,0,0,0.5)'>F++</div>
 		<br>
 		<div id='font_down' onclick='_font_down()' style='width: 50px; height: 30px; background: rgba(0,0,0,0.5)'>F--</div>
-	
-			
-		
+
 		<script>
 		var _main=document.getElementById('_main')		
 		
 		function _font_up(){			
 			var _font_size=parseFloat(_main.style.fontSize)
 			_font_size+=.1
-			_main.style.fontSize=_font_size+'em'			
-			
+			_main.style.fontSize=_font_size+'em'
 		}
 		
 		function _font_down(){
 			var _font_size=parseFloat(_main.style.fontSize)
 			_font_size-=.1
 			if(_font_size<0.2)_font_size=0.2
-			_main.style.fontSize=_font_size+'em'
-			
-		}
+			_main.style.fontSize=_font_size+'em'		}
 		</script>
 	</body>
 </html>
